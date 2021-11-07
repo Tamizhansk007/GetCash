@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>GetCash-Earn Money Online</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="reg.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase-auth.js"></script>
+</head>
+<body>
+    <div id="Register_div" class="reg-div">
+        <h3>GetCash-Earn Money Online</h3>
+        <input type="name" placeholder="Name..." id="name_field" /><br>
+        <input type="email" placeholder="email" id="email" /><br>
+        <input type="password" placeholder="password" id="password" /><br>
+    
+        <button onclick="signup()" id="signup">Register To Account</button><br>
+        Already Have Account? <a href="home.html">Login</a>
+      </div>
+      <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyBFFjOYDTS-1k9VeSo08wTrWcfZpvcs9DA",
+      authDomain: "coins-3de52.firebaseapp.com",
+      databaseURL: "https://coins-3de52-default-rtdb.firebaseio.com",
+      projectId: "coins-3de52",
+      storageBucket: "coins-3de52.appspot.com",
+      messagingSenderId: "73235702238",
+      appId: "1:73235702238:web:30d419e038c6cc6396bd4f"
+        };
+        firebase.initializeApp(config);
+      </script>
+      </body>
