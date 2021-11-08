@@ -105,6 +105,8 @@ input[type="checkbox"]{
   align-items: center;
   min-height: 100vh;
   background-image: url("https://www.pixelstalk.net/wp-content/uploads/images4/7698x4330-Night-Mountains-Summer-Illustration-8K-Wallpaper_-HD-Artist-4K-Wallpaper_-Image_-Photo-and-scaled.jpg");
+  height:100%;
+  width:100%;
 }
 .container{
   display: flex;
