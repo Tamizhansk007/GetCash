@@ -152,7 +152,7 @@ input[type="checkbox"]{
   position: absolute;
   top: -10px;
   right: 30px;
-  font-size: 80px;
+  font-size: 180px;
   color: rgba(0,0,0,0.02);
   transition: 0.5s;
   pointer-events: none;
